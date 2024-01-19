@@ -1,27 +1,28 @@
 /* #region Common */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Ubuntu;
 }
 
-:root{
+:root {
     --discord-primary: rgba(49, 97, 224, 1);
     --discord-secondary: rgba(35, 39, 42, 1);
-    --discord-head-txt:rgba(249, 250, 254, 1);
+    --discord-head-txt: rgba(249, 250, 254, 1);
     --discord-foot-txt: rgba(114, 137, 218, 1);
     --discord-bttn: rgba(142, 161, 225, 1);
 }
 
-.d-flex{
+.d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .container {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -31,88 +32,110 @@ body{
     height: 100%;
 }
 
-ul{
+ul {
     list-style: none;
     color: var(--discord-head-txt);
 }
 
-li{
+li {
     padding: 0.5rem;
 }
+
+.button {
+    padding: 0.8rem;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
 /* #endregion Common */
-.site-header{
+
+/* #region Header */
+.site-header {
     background-color: var(--discord-primary);
 }
 
-.login{
+.login {
     background-color: white;
-    border: none;
-    padding: 0.5rem;
-    border-radius: 20px;
-    font-weight: bold;
-    text-align: center;
+
     flex-grow: 1;
 }
-/* .menu {
-    background-color: rgb(228, 190, 93);
-    border: 1px;
-    border-style: dashed;
-    padding: 2px;
-} */
 
-.logo{
-   flex-grow: 1;
-}
-
-/* .login {
-    text-align: center;
+.logo {
     flex-grow: 1;
-} */
-
-.links {
-    width: 60%;
-    text-align: center;
 }
 
-.first.container {  
-    background-color: rgb(205, 238, 88);
-}
 
+.nav-link {
+    text-decoration: none;
+    color: var(--discord-head-txt);
+}
+/* #endregion Header */
+
+/* #region Main */
+
+/* #region Banner section */
 .banner {
-    background-color: rgb(252, 100, 80);
-    width: 50rem;
-    height: 17rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
 }
 
-.scnd.container{
-    background-color: beige;
+.ban.container {
+    text-align: center;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 50%;
 }
 
-.blue{
+.ban.container>p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ban-open {
+    background-color: var(--discord-secondary);
+    color: white;
+}
+
+.bttn.d-flex {
+    justify-content: space-evenly;
+}
+/* #endregion Banner section */
+
+
+
+.blue {
     background-color: blue;
     width: 40rem;
     height: 20rem;
     border: 1px dashed black;
 }
 
-.pink{
+.pink {
     background-color: pink;
     width: 20rem;
     height: 20rem;
     border: 1px dashed black;
 }
 
-.thrd.container{
+.thrd.container {
     background-color: lightgray;
 }
 
-.green{
+.green {
     background-color: darkgreen;
     width: 60rem;
     height: 40rem;
 }
+/* #endregion Main */
 
-.frst-foot-container{
+.frst-foot-container {
     background-color: rgb(31, 30, 30);
     display: flex;
     justify-content: center;
@@ -122,20 +145,21 @@ li{
     margin: auto;
 }
 
-.dark-pink{
+.dark-pink {
     background-color: rgb(175, 71, 88);
     width: 20rem;
     height: 15rem;
     border: 1px dashed black;
 }
 
-.light-blue{
+.light-blue {
     background-color: lightblue;
     width: 10rem;
     height: 15rem;
     border: 1px dashed white;
 }
-.last-foot-container{
+
+.last-foot-container {
     background-color: rgb(31, 30, 30);
     padding-top: 0.8rem;
     margin: auto;
@@ -143,7 +167,7 @@ li{
     border-bottom: 1px solid white;
 }
 
-.button-container{
+.button-container {
     background-color: aqua;
     width: 60rem;
     height: 2rem;
@@ -155,8 +179,3 @@ li{
     margin: auto;
 }
 
-.button{
-    background-color: bisque;
-    padding: 0.3rem;
-    border: 1px dashed black;
-}
