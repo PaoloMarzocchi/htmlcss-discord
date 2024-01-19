@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+.nav{
+    background-color: rgb(128, 178, 243);
+}
+.menu {
+    background-color: rgb(228, 190, 93);
+    border: 1px;
+    border-style: dashed;
+    padding: 2px;
+}
+
+.logo{
+    width: 10rem;
+}
+
+.login {
+    text-align: end;
+    width: 10rem;
+}
+
+.links {
+    width: 40rem;
+    text-align: center;
+}
+
+.first.container {  
+    background-color: rgb(205, 238, 88);
+}
+
+.banner {
+    background-color: rgb(252, 100, 80);
+    width: 50rem;
+    height: 17rem;
+}
+
+.scnd.container{
+    background-color: beige;
+}
+
+.blue{
+    background-color: blue;
+    width: 40rem;
+    height: 20rem;
+    border: 1px dashed black;
+}
+
+.pink{
+    background-color: pink;
+    width: 20rem;
+    height: 20rem;
+    border: 1px dashed black;
+}
+
+.thrd.container{
+    background-color: lightgray;
+}
+
+.green{
+    background-color: darkgreen;
+    width: 60rem;
+    height: 40rem;
+}
+
+.frst-foot-container{
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+.dark-pink{
+    background-color: rgb(175, 71, 88);
+    width: 20rem;
+    height: 15rem;
+    border: 1px dashed black;
+}
+
+.light-blue{
+    background-color: lightblue;
+    width: 10rem;
+    height: 15rem;
+    border: 1px dashed white;
+}
+.last-foot-container{
+    background-color: rgb(31, 30, 30);
+    padding-top: 0.8rem;
+    margin: auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.button-container{
+    background-color: aqua;
+    width: 60rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: auto;
+}
+
+.button{
+    background-color: bisque;
+    padding: 0.3rem;
+    border: 1px dashed black;
+}
