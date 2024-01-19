@@ -121,23 +121,21 @@ li {
     margin-bottom: 2rem;
 }
 
-.blue {
-    background-color: blue;
-    width: 40rem;
-    height: 20rem;
-    border: 1px dashed black;
+.wave-img-top {
+    width: 100%;
 }
 
-.pink {
-    background-color: pink;
-    width: 20rem;
-    height: 20rem;
-    border: 1px dashed black;
+.wave-img-bottom{
+    width: 100%;
+    rotate: 200grad;
 }
+ .meeting{
+    background-color: rgba(246, 246, 246, 1);
+} 
 
-.thrd.container {
-    background-color: lightgray;
-}
+
+
+
 
 .green {
     background-color: darkgreen;
