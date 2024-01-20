@@ -153,13 +153,10 @@ h2 {
     background-color: rgba(246, 246, 246, 1);
 }
 
-.button.download {
-    margin-top: 2rem;
-}
-
 .download {
     background-color: var(--discord-bttn);
     color: white;
+    margin-top: 2rem;
 }
 
 
