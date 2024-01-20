@@ -123,6 +123,7 @@ h2 {
 
 /* #endregion Banner section */
 
+/* #region Sections */
 .invite {
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -170,10 +171,14 @@ h2 {
 .star {
     width: 40%;
 }
+/* #endregion Sections */
 
 /* #endregion Main */
 
 /* #region Footer */
+
+/* #region Top-footer */
+
 .site-footer {
     padding-top: 3rem;
 }
@@ -220,7 +225,9 @@ svg {
 .grow {
     flex-grow: 1;
 }
+/* #endregion Top-footer */
 
+/* #region Bottom-footer */
 .bottom-footer{
     border-top: 1px solid var(--discord-foot-txt);
     justify-content: space-between;
@@ -232,4 +239,6 @@ svg {
     background-color: var(--discord-bttn);
     color: white;
 }
+/* #endregion Bottom-footer */
+
 /* #endregion Footer */
