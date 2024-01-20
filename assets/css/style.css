@@ -41,26 +41,28 @@ li {
     padding: 0.5rem;
 }
 
-.button {
+button {
     padding: 0.8rem;
     border-radius: 20px;
     text-align: center;
     border: none;
     font-weight: bold;
 }
+
 p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
     font-weight: bolder;
     margin-bottom: 2rem;
 }
-h3{
-    font-size: 1.5rem;
-    font-weight: bolder;
 
+
+.site-footer {
+    background-color: var(--discord-secondary);
 }
 
 /* #endregion Common */
@@ -85,6 +87,7 @@ h3{
     text-decoration: none;
     color: var(--discord-head-txt);
 }
+
 /* #endregion Header */
 
 /* #region Main */
@@ -117,95 +120,116 @@ h3{
 .bttn.d-flex {
     justify-content: space-evenly;
 }
+
 /* #endregion Banner section */
 
-.invite{
+.invite {
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
-.invite-img{
+
+.invite-img {
     margin-right: 2rem;
 }
- 
+
 
 .wave-img-top {
     width: 100%;
 }
 
-.wave-img-bottom{
+.wave-img-bottom {
     width: 100%;
     rotate: 200grad;
 }
- .meeting{
-    background-color: rgba(246, 246, 246, 1);
-} 
 
-.contact{
+.meeting {
+    background-color: rgba(246, 246, 246, 1);
+}
+
+.contact {
     text-align: center;
     margin: auto;
     background-color: rgba(246, 246, 246, 1);
 }
 
-.button.download{
+.button.download {
     margin-top: 2rem;
 }
 
-.start-adventure{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.star{
-    width: 40%;
-}
-/* #endregion Main */
-
-.frst-foot-container {
-    background-color: rgb(31, 30, 30);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    margin: auto;
-}
-
-.dark-pink {
-    background-color: rgb(175, 71, 88);
-    width: 20rem;
-    height: 15rem;
-    border: 1px dashed black;
-}
-
-.light-blue {
-    background-color: lightblue;
-    width: 10rem;
-    height: 15rem;
-    border: 1px dashed white;
-}
-
-.last-foot-container {
-    background-color: rgb(31, 30, 30);
-    padding-top: 0.8rem;
-    margin: auto;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-
-.button-container {
-    background-color: aqua;
-    width: 60rem;
-    height: 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin: auto;
-}
-
-.download{
+.download {
     background-color: var(--discord-bttn);
     color: white;
 }
 
+
+.start-adventure {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.star {
+    width: 40%;
+}
+
+/* #endregion Main */
+
+/* #region Footer */
+.site-footer {
+    padding-top: 3rem;
+}
+
+.top-footer {
+    justify-content: normal;
+    align-items: normal;
+}
+
+.social h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.social {
+    width: 25%;
+}
+
+.site-footer h3 {
+    color: var(--discord-foot-txt);
+}
+
+.ita-img {
+    width: 1rem;
+
+}
+
+.ita-txt {
+    font-size: smaller;
+    color: white;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.icons {
+    width: 60%;
+}
+
+svg {
+    width: 1rem;
+    margin: auto;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.bottom-footer{
+    border-top: 1px solid var(--discord-foot-txt);
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.sign-up{
+    background-color: var(--discord-bttn);
+    color: white;
+}
+/* #endregion Footer */
