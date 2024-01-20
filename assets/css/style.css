@@ -48,6 +48,20 @@ li {
     border: none;
     font-weight: bold;
 }
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
 
 /* #endregion Common */
 
@@ -93,10 +107,7 @@ li {
     width: 50%;
 }
 
-.ban.container>p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+
 
 .ban-open {
     background-color: var(--discord-secondary);
@@ -115,11 +126,7 @@ li {
 .invite-img{
     margin-right: 2rem;
 }
-.invite-txt h2{
-    font-size: 2.5rem;
-    font-weight: bolder;
-    margin-bottom: 2rem;
-}
+ 
 
 .wave-img-top {
     width: 100%;
@@ -133,14 +140,23 @@ li {
     background-color: rgba(246, 246, 246, 1);
 } 
 
+.contact{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(246, 246, 246, 1);
+}
 
+.button.download{
+    margin-top: 2rem;
+}
 
+.start-adventure{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
-
-.green {
-    background-color: darkgreen;
-    width: 60rem;
-    height: 40rem;
+.star{
+    width: 40%;
 }
 /* #endregion Main */
 
@@ -186,5 +202,10 @@ li {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     margin: auto;
+}
+
+.download{
+    background-color: var(--discord-bttn);
+    color: white;
 }
 
